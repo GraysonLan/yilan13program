@@ -23,7 +23,7 @@
  background: #4a4a4a; color: white;
 }
 ::selection {
- background: #4a4a4a; color: white;
+ background: #71c8d1; color: white;
 }
 /*! minireset.css v0.0.2 | MIT License | github.com/jgthms/minireset.css */
 html,
@@ -2825,9 +2825,13 @@ a.box:active {
   margin-bottom: 0.8888em;
 }
 
-.content h6 {
-  font-size: 1em;
-  margin-bottom: 1em;
+.content h6  {
+  font-size: 1.25em;
+  font-weight: 400;
+  margin-bottom: 0.8em;
+  margin-left: 9.6em;
+  margin-right: 9.6em;
+  color:#666666;
 }
 
 .content blockquote {
