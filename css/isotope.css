@@ -1,0 +1,292 @@
+.isotope {
+	margin-top: 1em;
+}
+
+.folio-inner {
+	overflow: hidden;
+	background: #fff;
+}
+
+.folio-filter {
+	position: relative;
+	bottom: 0px;
+	display: table;
+	margin: 20px auto 65px;
+	float: none;
+	padding: 0px;
+}
+
+.folio-filter li {
+	display: inline-block;
+	margin-right: 24px;
+	margin-left: 24px;
+}
+
+.folio-filter li:last-child {
+	padding-right: 0px;
+}
+
+.folio-filter li a {
+	display: block;
+	font-family: Raleway;
+	font-size: 13px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #666;
+	padding: 0 0px;
+	letter-spacing: 0.15em;
+}
+
+.folio-filter li a span {
+	margin-right: 6px;
+}
+
+.folio-filter li a:hover, .folio-filter li a.selected {
+	color: #000;
+	text-decoration: none;
+}
+	
+/* Isotope Transitions
+------------------------------- */
+/* Note: Design for a width of 480px */
+@media only screen and (max-width: 470px) {
+
+.folio-filter {
+    margin: 50px auto 0px;
+}
+
+.folio-filter li {
+    font-size: 12px;
+    padding: 3px 3px;
+}
+
+}
+
+/* Note: Design for a width of 480px */
+@media only screen and (max-width: 767px) {
+
+.folio-filter {
+    margin: 50px auto 0px;
+}
+
+}
+
+
+.project-item:hover .hover-zoom a.link {
+	position: relative;
+	right: 0px;
+	opacity: 1;
+	transform: rotate(0deg);
+}
+
+.project-item:hover .hover-zoom a.zoom {
+	position: relative;
+	left: 0px;
+	opacity: 1;
+	transform: rotate(0deg);
+}
+
+.project-item:hover .overlay-folio {
+	opacity: 1;
+	transition: .5s;
+	visibility: visible;
+}
+
+.project-info {
+	padding: 20px;
+}
+
+.project-info h2 {
+	margin: 0;
+	font-size: 13px;
+	text-transform: capitalize;
+}
+
+.project-info p {
+	margin: 0;
+}
+
+.filter {
+	margin: 35px auto 50px;
+	display: table;
+}
+
+.filter li {
+	float: left;
+	margin: 0 10px;
+}
+
+.filter a {
+	color: #000;
+	border: 1px solid #000;
+	font-family: "Montserrat","Helvetica Neue",Arial,sans-serif;
+	font-size: 10px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	padding: 6px 10px;
+}
+
+.filter a:hover {
+	color: #fff;
+	background: #000;
+}
+
+#portfolio-section h3 {
+	font-size: 30px;
+	margin: 0;
+}
+
+
+#portfolio-home.folio-boxed-2col .project-item {
+	width: 50%;
+	overflow: hidden;
+}
+@media screen and (min-width: 1024px) {
+
+#portfolio-home.folio-boxed-3col .project-item {
+	width: 33.3333333%;
+	overflow: hidden;
+}
+}
+
+@media screen and (max-width: 1023px) {
+#portfolio-home.folio-boxed-3col .project-item {
+	width: 50%;
+	overflow: hidden;
+}
+}
+
+
+@media screen and (max-width: 768px) {
+#portfolio-home.folio-boxed-3col .project-item {
+	width: 100%;
+	overflow: hidden;
+}
+}
+
+#portfolio-home.folio-boxed-4col .project-item {
+	width: 25%;
+	overflow: hidden;
+}
+
+.overlay-folio2 {
+	background: rgba(255,255,255,0.8);
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: .4s;
+}
+
+#portfolio-home.folio-boxed-2col .project-info ,
+#portfolio-home.folio-boxed-3col .project-info ,
+#portfolio-home.folio-boxed-4col .project-info {
+	position: absolute;
+	bottom: -50%;
+	left: 0;
+	display: table;
+	margin: 0 auto;
+	right: 0;
+	text-align: center;
+	transition: .4s;
+	width:100%;
+}
+
+#portfolio-home.folio-boxed-2col .project-item img ,
+#portfolio-home.folio-boxed-3col .project-item img ,
+#portfolio-home.folio-boxed-4col .project-item img {
+	transform: scale(1);
+	transition: .4s;
+}
+
+#portfolio-home.folio-boxed-2col .project-info h2 ,
+#portfolio-home.folio-boxed-3col .project-info h2 ,
+#portfolio-home.folio-boxed-4col .project-info h2 {
+	font-size: 30px;
+	color: #000;
+	letter-spacing: 1px;
+	transition:.4s;
+}
+
+#portfolio-home.folio-boxed-2col .project-info h2:hover ,
+#portfolio-home.folio-boxed-3col .project-info h2:hover ,
+#portfolio-home.folio-boxed-4col .project-info h2:hover {
+	color: #666666;
+	transition:.4s;
+}
+
+#portfolio-home.folio-boxed-2col .project-item:hover img ,
+#portfolio-home.folio-boxed-3col .project-item:hover img ,
+#portfolio-home.folio-boxed-4col .project-item:hover img {
+	transform: scale(1.1);
+	transition: .4s;
+}
+
+#portfolio-home.folio-boxed-2col .project-item:hover .overlay-folio2 ,
+#portfolio-home.folio-boxed-3col .project-item:hover .overlay-folio2 ,
+#portfolio-home.folio-boxed-4col .project-item:hover .overlay-folio2 {
+	opacity: 1;
+	visibility: visible;
+	transition: .4s;
+}
+
+#portfolio-home.folio-boxed-2col .project-item:hover .project-info ,
+#portfolio-home.folio-boxed-3col .project-item:hover .project-info ,
+#portfolio-home.folio-boxed-4col .project-item:hover .project-info {
+	bottom: 0%;
+	transition: .4s;
+}
+
+#portfolio-home.gutter .project-item {
+	border: 5px solid #fff !important;
+}
+
+#portfolio-home.tiles .project-item {
+	padding-bottom: 100px;
+	border-right: 5px solid #fff !important;
+	border-left: 5px solid #fff !important;
+}
+
+#portfolio-home.tiles .project-info {
+	position: absolute;
+	left: 0px;
+	display: table;
+	margin: 0px auto;
+	right: 0px;
+	text-align: center;
+	transition: all 0.4s ease 0s;
+	bottom: 10px;
+}
+
+#portfolio-home.tiles .overlay-folio2 {
+	opacity: 1 !important;
+	visibility: visible !important;
+	background: transparent !important;
+}
+
+#portfolio-home.tiles .project-gal {
+	overflow: hidden;
+}
+
+#portfolio-home.tiles .overlay-folio2 {
+	opacity: 1 !important;
+	visibility: visible !important;
+	background: transparent !important;
+}
+
+#portfolio-home.tiles .project-item:hover .overlay-folio2 {
+	background: rgba(255,255,255,0.8) !important;
+}
+
+#portfolio-home.tiles .project-item:hover .project-info {
+	transition: all 0.4s ease 0s;
+	bottom: 92px;
+}
+
+#portfolio-home .project-gal img {
+	width: 100%;
+}
