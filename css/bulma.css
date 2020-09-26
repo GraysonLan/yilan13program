@@ -2689,7 +2689,7 @@ a.box:active {
   .container.is-fluid {
     margin-left: 20em;
     margin-right: 20em;
-    margin-top: 20em;
+    margin-top: 30em;
     max-width: none;
     width: auto;
     background-color:;
@@ -10979,7 +10979,7 @@ p{
   .container.is-fluid {
     margin-left: 8em;
     margin-right: 8em;
-    margin-top: 24em;
+    margin-top: 30em;
     max-width: none;
     width: auto;
     background-color:;
@@ -11053,7 +11053,7 @@ p{
   .container.is-fluid {
     margin-left: 0em;
     margin-right:0em;
-    margin-top: 20em;
+    margin-top: 28em;
     max-width: none;
     width: auto;
     background-color:;
