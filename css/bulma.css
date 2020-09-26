@@ -2826,10 +2826,10 @@ a.box:active {
 }
 
 .content h6  {
-  font-size: 1.25em;
+  font-size: 1em;
   font-weight: 400;
   margin-bottom: 0.8em;
-  margin-left: 9.6em;
+  margin-left: 12em;
   margin-right: 9.6em;
   color:#666666;
 }
@@ -10946,6 +10946,11 @@ p{
   margin-right: 1.6em;  
 }
 
+.content h6{
+  margin-left: 1.6em;
+  margin-right: 1.6em;  
+}
+
 .img{
   height: auto;
   padding-left: 2em;
@@ -11016,6 +11021,11 @@ p{
   margin-right: 9.6em;  
 }
 
+.content h6{
+  margin-left: 12em;
+  margin-right: 12em;  
+}
+
 .img{
   height: auto;
   padding-left: 6em;
@@ -11082,6 +11092,11 @@ p{
 .content h4{
   margin-left: 1.6em;
   margin-right: 1.6em;  
+}
+
+.content h6{
+  margin-left: 2em;
+  margin-right: 2em;  
 }
 
 .img{
